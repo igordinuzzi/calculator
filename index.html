@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A user-friendly basic scientific calculator for performing arithmetic operations, square root, exponentiation, and memory functions online. Ideal for quick calculations and educational purposes.">
+    <title>Basic Scientific Calculator Online</title>
+    <meta name="author" content="Igor Dinuzzi">
+    <link rel="icon" href="assets/favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <main>
+        <div class="center-container">
+    <div id="calculator">
+        <!-- Display -->
+        <label for="display" class="visually-hidden">Display</label>
+        <input type="text" id="display" disabled>
+        <!-- Memory Buttons -->
+        <button onclick="memoryRecall()" aria-label="Memory Recall">MR</button>
+        <button onclick="memoryClear()" aria-label="Memory Clear">MC</button>
+        <button onclick="memoryAdd()" aria-label="Add to Memory">M+</button>
+        <button onclick="memorySubtract()" aria-label="Subtract from Memory">M-</button>
+        <!-- Numbers -->
+        <button onclick="appendNumber('7')" aria-label="Number 7">7</button>
+        <button onclick="appendNumber('8')" aria-label="Number 8">8</button>
+        <button onclick="appendNumber('9')" aria-label="Number 9">9</button>
+        <button onclick="setOperation('/')" aria-label="Divide"><i class="fa-solid fa-divide"></i></button>
+        <button onclick="appendNumber('4')" aria-label="Number 4">4</button>
+        <button onclick="appendNumber('5')" aria-label="Number 5">5</button>
+        <button onclick="appendNumber('6')" aria-label="Number 6">6</button>
+        <button onclick="setOperation('*')" aria-label="Multiply"><i class="fa-solid fa-xmark"></i></button>
+        <button onclick="appendNumber('1')" aria-label="Number 1">1</button>
+        <button onclick="appendNumber('2')" aria-label="Number 2">2</button>
+        <button onclick="appendNumber('3')" aria-label="Number 3">3</button>
+        <button onclick="setOperation('-')" aria-label="Minus"><i class="fa-solid fa-minus"></i></button>
+        <button onclick="appendNumber('0')" aria-label="Number 0">0</button>
+        <button onclick="appendNumber('.')" aria-label="Dot">.</button> <!-- Decimal Point -->
+        <button onclick="calculate()" aria-label="Equals"><i class="fa-solid fa-equals"></i></button> <!-- Equal Button -->
+        <button onclick="setOperation('+')" aria-label="Add"><i class="fa-solid fa-plus"></i></button>
+        <button onclick="clearDisplay()" aria-label="Clear display">C</button> <!-- Clear Button -->
+     </div>
+    </div> 
+</main>
+<footer>
+    <div class="footer-content">
+        <a href="https://github.com/igordinuzzi" target="_blank" class="github-link">
+            <i class="fab fa-github"></i> <!-- FontAwesome GitHub icon -->
+        </a>
+        <span>Made by <a href="https://github.com/igordinuzzi" target="_blank">Igor</a></span> <!-- Replace with your personal link -->
+    </div>
+</footer>
+    <script src="script/calculator.js"></script>
+</body>
+</html>
