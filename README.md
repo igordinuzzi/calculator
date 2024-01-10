@@ -2,6 +2,8 @@
 
 This README provides detailed information about the Basic Scientific Calculator, a user-friendly online calculator for performing arithmetic operations, square roots, exponentiation, and memory functions. It is ideal for quick calculations and educational purposes.
 
+You can try the Basic Scientific Calculator Online [here](https://igordinuzzi.github.io/calculator/).
+
 ![Calculator](assets/calculator.jpg)
 
 ## Table of Contents
