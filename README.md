@@ -4,7 +4,7 @@ This README provides detailed information about the Basic Scientific Calculator,
 
 You can try the Basic Scientific Calculator Online [here](https://igordinuzzi.github.io/calculator/).
 
-![Calculator](assets/calculator.jpg)
+![Calculator](doc/mockup.jpg)
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -14,7 +14,6 @@ You can try the Basic Scientific Calculator Online [here](https://igordinuzzi.gi
 - [Mathematical Operations](#mathematical-operations)
 - [Installation](#installation)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## Introduction
